@@ -22,3 +22,11 @@ localhost:2181 <topicname> > output.txt
 #### TODO:
 - [] Add the jar in the docker container
 - [] Install `pip3` for python3 and `kafka-python` in docker
+
+#### Python Dependencies to install 
+- pip3 install tweepy
+- pip3 install kafka-python
+- pip3 install python-twitter
+- pip3 pip3 install pyspark
+
+##### To run locally, enter `bootstrap_server=localhost:9092` for kafka server port, and `zookeeper:port=localhost:2181`
